@@ -580,6 +580,5 @@ void CudaRasterizer::Rasterizer::backward(
 		dL_ddc,
 		dL_dsh,
 		(glm::vec3*)dL_dscale,
-		(glm::vec4*)dL_drot,
-		render_depth), debug)
+		(glm::vec4*)dL_drot), debug)
 }

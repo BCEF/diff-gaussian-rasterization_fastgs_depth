@@ -71,11 +71,11 @@ namespace FORWARD
 		float* out_invdepth,
 		char* img_contrib_scan,
 		size_t scan_size,
-		const float* depths,
 		int* radii,
 		const int* metric_map,
 		bool get_flag,
 		int* metricCount,
+		const float* depths,
 		bool render_depth);
 }
 
